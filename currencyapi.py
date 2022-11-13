@@ -1,6 +1,6 @@
 import pandas as pd
 #import numpy as np
-#import requests
+import requests
 #from mechanism import *
 
 # ON PRODUCTION REPLACE THIS
@@ -11,7 +11,7 @@ import pandas as pd
 class tra():
     
     def ForeignExhange():
-        url=open("/storage/emulated/0/AProjects/Api/currency/tra.html","rt")
+        url=requests.get("https://www.tra.go.tz/index.php/exhange-rates")
         dfs=pd.read_html(url)
      
         for df in dfs:
