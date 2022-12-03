@@ -28,5 +28,9 @@ The API for money exchange for Major currency in the world and I've add the TRA 
   ## To access the currency based in Tanzania:
             currency=currency.tra()
     
-
+  * E.g The currency pairs for Tanzania country:
+    <p align="center">
+      <img src="img/1.png" alt="Tanzania currency dictionary" width="738">
+      <img src="img/2.png" alt="Tanzania currency dictionary" width="738">
   
+#### Developed by [Isack Philiph](https://twitter.com/isack_nkolima?t=-wwE7pD5wM0aCFGxEyalHw&s=09)
